@@ -1490,7 +1490,7 @@ tbody tr:nth-child(2n + 1) {
 	transition: background-color 0.3s ease-in-out;
 }
 tbody tr:nth-child(odd) {
-	background: var(--sortablehov);
+	background: var(--sortable2);
 }
 thead .sortable:before {
 	-webkit-appearance: none;
@@ -4454,7 +4454,7 @@ table.wasabee-table tbody tr:nth-child(2n + 1) {
 	transition: background-color 0.3s;
 }
 table.wasabee-table tbody tr:nth-child(odd) {
-	background: var(--sortablehov);
+	background: var(--sortable2);
 }
 table.wasabee-table > thead .sortable:before {
 	content: "";
