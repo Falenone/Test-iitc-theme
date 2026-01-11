@@ -43,7 +43,7 @@
 	--shadow2: rgba(27, 31, 35, .1); /*Box shadow for titlebar, content buttons*/
 	--historydetails: #ff4a4a; /*When not visited, captured, scoutcontrolled*/
 	--leafletpopup: rgba(29, 36, 36, .75); /* Leaflet popup bg*/
-	--sortablehov: #64646445; /*Sortable table hover*/
+	--sortablehov: #5b5c8145; /*Sortable table hover*/
 	--tablecol: rgba(128, 128, 128, .4); /*Table color*/
 	--focuscol: #37B5E3; /*focus and active colors for input, text fields etc*/
 	--tooltip: rgba(29, 36, 36, .60); /*Tooltips and chatinput color*/
