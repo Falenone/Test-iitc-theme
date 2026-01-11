@@ -38,7 +38,7 @@
 	--mac:#FF5F5F; /*Machina color, sidebar portal details, chat agent name etc*/	
 	--neutralportal: #fff; /*Neutral color, sidebar portal details, chat agent name etc*/		
       /*Misc*/
-	--bgblur: blur(3px) grayscale(100%); /*The dialog and other blur background*/
+	--bgblur: blur(0px) grayscale(100%); /*The dialog and other blur background*/
 	--shadow: rgba(0, 0, 0, .28); /*Shadow behind dialogs and other stuff*/
 	--shadow2: rgba(27, 31, 35, .1); /*Box shadow for titlebar, content buttons*/
 	--historydetails: #ff4a4a; /*When not visited, captured, scoutcontrolled*/
