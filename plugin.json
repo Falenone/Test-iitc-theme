@@ -1,11 +1,11 @@
 {
-  "name": "IITC plugin: TcTheme-<NAME>",
-  "id": "iitc_plugin_TcTheme_<NAME>",
+  "name": "IITC plugin: TcTheme-Blurthemetest",
+  "id": "iitc_plugin_TcTheme_Blurthemetest",
   "category": "Themes",
   "description": "A theme for IITC",
-  "author": "<AUTHOR>",
+  "author": "Falenone",
   "entry": "src/Main.ts",
-  "downloadURL": "https://<OWNER>.github.io/<REPO>/files/release/<PLUGIN_ID>.user.js",
-  "displayName": "<DISPLAY_NAME>",
-  "previewUrl": "https://<OWNER>.github.io/<REPO>/preview.png"
+  "downloadURL": "https://Falenone.github.io/Test-iitc-theme/files/release/iitc_plugin_TcTheme_Blurthemetest.user.js",
+  "displayName": "Blurtheme test",
+  "previewUrl": "https://Falenone.github.io/Test-iitc-theme/preview.png"
 }
