@@ -5920,11 +5920,8 @@ body > .pocketPortalDetails {
 	border: none;
 }
 /*Theme chooser*/
-div#ThemeChooserContainer tbody tr:hover, div#ThemeChoosertab-1 tbody tr:hover,div#ThemeChooserContainer tbody, div#ThemeChooserContainer tr {
+div#ThemeChooserContainer tbody tr:hover,div#ThemeChooserContainer tbody, div#ThemeChooserContainer tr {
     background: transparent;
-}
-div#ThemeChoosertab-1 thead {
-    height: 20px;
 }
 /*Theme chooser end*/
 /*Highlighters start*/
