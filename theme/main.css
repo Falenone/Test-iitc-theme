@@ -1584,6 +1584,11 @@ th.sortable {
 ui-dialog:active {
 	border: 21px solid red!important;
 }
+/*Remove the border just above the button panel only when there are no buttons*/
+.ui-dialog:not(:has(.ui-dialog-buttonpane))
+  .ui-dialog-content {
+  border-bottom: none;
+}
 .ui-dialog {
 	position: absolute;
 	z-index: 9500;
@@ -5922,3 +5927,29 @@ div#ThemeChoosertab-1 thead {
     height: 20px;
 }
 /*Theme chooser end*/
+/*Highlighters start*/
+/*Highlighters start*/
+.highlighters-list {
+    border: 1px solid var(--accentcol01);
+	border-radius: 10px; 
+	cursor: grab;
+}
+.highlighters-list li:hover {
+    transition: background-color 0.3s ease-in-out;
+	background: var(--sortablehov);
+}
+.highlighters-list li{
+	transition: background-color 0.3s ease-in-out;
+	border-bottom: 1px solid var(--accentcol04);
+}
+.highlighters-list li:first-of-type{
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top: none;
+}
+.highlighters-list li:last-of-type {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;	
+	border-bottom: none;
+}
+/*Highlighters end*/
