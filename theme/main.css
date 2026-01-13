@@ -944,6 +944,26 @@ input[type="url"] {
 	transition: all 0.3s ease-in-out;
 	caret-color: var(--focuscol);
 }
+/* Spin Buttons modified */
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    background: var(--focuscol) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAKUlEQVQYlWNgwAT/sYhhKPiPT+F/LJgEsHv37v+EMGkmkuImoh2NoQAANlcun/q4OoYAAAAASUVORK5CYII=) no-repeat center center;
+    width: 1.5em;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	transition: all 0.3s ease-in-out;	
+}
+input[type="number"]::-webkit-inner-spin-button:hover,
+input[type="number"]::-webkit-inner-spin-button:active{
+    opacity: .8;
+	transition: all 0.3s ease-in-out;
+}
 /*Select is su*/
 multiple {
 	background: none;
@@ -2033,9 +2053,6 @@ table.artifact .portal {
 
 #portal_highlight_select {
 	position: absolute;
-	top: 5px;
-	left: 10px;
-	z-index: 2500;
 	font-size: 11px;
 	background-color: var(--bgroundcol);
 	color: var(--lightwhite);
@@ -5925,7 +5942,6 @@ div#ThemeChooserContainer tbody tr:hover,div#ThemeChooserContainer tbody, div#Th
 }
 /*Theme chooser end*/
 /*Highlighters start*/
-/*Highlighters start*/
 .highlighters-list {
     border: 1px solid var(--accentcol01);
 	border-radius: 10px; 
@@ -5950,3 +5966,39 @@ div#ThemeChooserContainer tbody tr:hover,div#ThemeChooserContainer tbody, div#Th
 	border-bottom: none;
 }
 /*Highlighters end*/
+/*Machina cluster start*/
+.machina-link-length {
+    border: 1px solid var(--accentcol01);
+    border-radius: 5px;
+}
+/*Machina cluster end*/
+/*Multi projects manager start*/
+	/*WIP*/
+.mpe.settings > div {
+	border: none;
+    background: transparent;
+}
+.mpe.settings label {
+    color: inherit;
+}
+/*Multi projects manager end*/
+/*Portal highlights, nearby farm select, farm level select start*/
+#portal_highlight_select, #farm_nearby_select, #farm_level_select {
+    content: "▼";	
+    font-size: 11px;
+    background-color: var(--bgroundcol);
+    color: var(--lightwhite);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    transition: all 0.3s ease-in-out;
+}
+
+#portal_highlight_select:hover, #farm_nearby_select:hover, #farm_level_select:hover {
+    content: "▼";
+    background-color: var(--bgroundcol);
+    border: 1px solid var(--hovers2);
+    transition: all 0.3s ease-in-out;
+}
+/*Portal highlights, nearby farm select, farm level select end*/
+/*Shit can't have enough space and I've sank too much time trying to figure it out*/
