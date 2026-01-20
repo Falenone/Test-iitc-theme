@@ -1,6 +1,7 @@
 /*Let's do a clean, modern font*/
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Manrope:wght@600&display=swap');
-html {
+html,
+body {
 	font-family: 'Manrope', sans-serif;
 }
 input,
