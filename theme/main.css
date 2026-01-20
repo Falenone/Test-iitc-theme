@@ -5831,8 +5831,35 @@ input.picker {
 	background: var(--active);
 	border-radius: 5px;
 }
-/*Kiwi */
-
+/*aKiwi */
+/*Yes it has to be important everything*/
+#aKiwi-button img {
+	filter: invert(122%) sepia(3%) saturate(0%) hue-rotate(120deg) brightness(170%) contrast(100%);
+}
+#aKiwi-container {
+	color: var(--lightwhite);
+}
+.aKiwi-header {
+	border: 1px transparent!important;
+}
+h4.aKiwi-title {
+	background-color: transparent!important;
+}
+#aKiwi-button {
+	background-color: var(--accentcol01)!important;
+	border: 1px solid var(--buttonborder)!important;
+	border-radius: 6px!important;
+	box-shadow: var(--shadow2) 0 1px 0!important;
+	color: var(--lightwhite)!important;
+	cursor: pointer!important;
+	text-align: center!important;
+	transition: background-color 0.3s ease-in-out!important;
+}
+#aKiwi-button:hover {
+	background-color: var(--hovers2)!important;
+	color: var(--whitecol)!important;
+	transition: background-color 0.5s ease-in-out!important;
+}
 /*Quick copy portalname
 UMM notification*/
 .QCPNotification,
