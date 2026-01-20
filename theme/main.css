@@ -2229,7 +2229,10 @@ table.artifact .portal {
 .cellscore .historychart > div {
 	overflow: auto;
 }
-
+/*Make it full height on history chart*/
+.historychart.ui-accordion-content-active {
+	height: fit-content;
+}
 .cellscore .logscale {
 	vertical-align: middle;
 	margin-top: 0;
@@ -2246,14 +2249,14 @@ table.artifact .portal {
 		background: var(--hovers);
 	}
 }
-
+g.checkpoint circle {
+	transition: all .3s linear;
+}
 g.checkpoint:hover circle {
 	fill-opacity: 1;
 	stroke-width: 5px;
 	transition: all .3s linear;
 }
-
-
 .cellscore th,
 .cellscore td {
 	text-align: left;
@@ -2313,6 +2316,9 @@ g.checkpoint:hover circle {
 	width: 100%;
 }
 .checkpoint_timers table tr,td {
+	background: transparent;
+}
+.checkpointtooltip tr,tbody tr:nth-child(odd) {
 	background: transparent;
 }
 /*Region scores end*/
