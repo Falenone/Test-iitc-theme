@@ -1043,7 +1043,7 @@ select option:focus {
         color: var(--lightwhite)!important;
 }
 
-  select option:hover {
+select option:hover {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
@@ -4241,7 +4241,7 @@ input[type=radio]:disabled + .control_indicator {
     text-align: left;
     vertical-align: baseline;
     border-color: var(--tableborder);
-    font-family: 'Manrope', sans-serif;
+    font-family: inherit;
 }
 #SI_newOp_leftside textarea {
     width: 99%;
@@ -4426,7 +4426,7 @@ div#available_ap_display div {
 	position: absolute;
 	white-space: nowrap;
 	z-index: 6;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 }
 .wasabee-tooltip:before {
 	border-right: 6px solid var(--accentcol02);
@@ -4467,7 +4467,7 @@ table.wasabee-table tr {
 	-webkit-transition: background-color 0.3s;
 	-o-transition: background-color 0.3s;
 	transition: background-color 0.3s;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 }
 table.wasabee-table tbody tr:nth-child(2n + 1) {
 	background: transparent;
@@ -4500,7 +4500,7 @@ table.wasabee-table th {
 	text-align: left;
 	vertical-align: baseline;
 	border-color: var(--tableborder);
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 }
 table.wasabee-table > thead .sorted {
 	background-color: var(--portalslisttheadhov);
@@ -4539,7 +4539,7 @@ table.wasabee-table > thead .sortable.desc:before {
 	font-weight: bolder;
 	-webkit-backdrop-filter: blur(8px) grayscale(100%)!important;
 	        backdrop-filter: blur(8px) grayscale(100%)!important;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 }
 .wasabee-popup a.unclaimed {
 	color: var(--whitecol)!important;
@@ -4597,7 +4597,7 @@ table.wasabee-table > thead .sortable.desc:before {
 	    touch-action: manipulation;
 	white-space: nowrap;
 	margin: 3px;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	-webkit-transition: background-color 0.3s;
 	-o-transition: background-color 0.3s;
 	transition: background-color 0.3s;
@@ -4624,7 +4624,7 @@ table.wasabee-table > thead .sortable.desc:before {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	margin-top: 5px;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	-webkit-transform: scale(1.5);
 	    -ms-transform: scale(1.5);
 	        transform: scale(1.5);
@@ -4640,7 +4640,7 @@ table.wasabee-table > thead .sortable.desc:before {
 	        backdrop-filter: var(--bgblur);
 	/*margin-top: 4px;*/
 	border: none;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
     -webkit-animation: fadein .2s, slide-bottom 0.2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
     animation: fadein .2s, slide-bottom 0.2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
@@ -4716,7 +4716,7 @@ table.wasabee-table > thead .sortable.desc:before {
 	white-space: nowrap;
 	margin: 3px;
     height: 30px;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	-webkit-transition: background-color 0.3s;
 	-o-transition: background-color 0.3s;
 	transition: background-color 0.3s;
@@ -4738,7 +4738,7 @@ table.wasabee-table > thead .sortable.desc:before {
 	width: auto;
 	padding: 2px 0 0 0px;
 	font-size: 12px;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	color: var(--hovers3);
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -4748,7 +4748,7 @@ table.wasabee-table > thead .sortable.desc:before {
 .wasabee-dialog input-placeholder {
 	color: var(--accentcol02);
 	opacity: 0.5;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	-webkit-transition: opacity 0.3s ease-in-out;
 	-o-transition: opacity 0.3s ease-in-out;
 	transition: opacity 0.3s ease-in-out;
@@ -4771,7 +4771,7 @@ table.wasabee-table > thead .sortable.desc:before {
 	border-bottom: 1px solid var(--hovers2);
 	background: transparent;
 	font-size: 12px;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	color: var(--hovers3);
 	-webkit-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -4835,7 +4835,7 @@ table.wasabee-table > thead .sortable.desc:before {
 	color: var(--accentcol02);
 	text-align: left;
 	line-height: 20px;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	font-size: 14px;
 	-webkit-transition: background 0.3s;
 	-o-transition: background 0.3s;
@@ -4880,7 +4880,7 @@ table.wasabee-table > thead .sortable.desc:before {
 		position: relative;
 		margin: 2px;
 		cursor: pointer;
-		font-family: 'Manrope', sans-serif;
+		font-family: inherit;
 		border: 1px solid var(--bc, var(--border));
 		background: var(--b, var(--background));
 		-webkit-transition: background 0.3s, border-color 0.3s, -webkit-box-shadow 0.2s;
@@ -5023,7 +5023,7 @@ table.wasabee-table > thead .sortable.desc:before {
 .wasabee-dialog-auth .content {
 	display: -ms-grid;
 	display: grid;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	justify-items: center;
 }
 .wasabee-dialog-wdkeys div.portal {
@@ -5066,7 +5066,7 @@ table.wasabee-table > thead .sortable.desc:before {
 	background: rgba(43, 122, 120, .1);
 	padding: 5px 5px 5px 5px;
 	font-size: 12px;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	color: var(--hovers3);
 	border-radius: 10px;
 	-webkit-transition: all 0.3s;
@@ -5307,7 +5307,7 @@ table.wasabee-table > thead .sortable.desc:before {
 	-ms-grid-row-align: center;
 	-ms-grid-column-align: start;
 	place-self: center start;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
     line-height: normal;
 }
 .wasabee-dialog select:hover {
@@ -5516,7 +5516,7 @@ input.picker {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	margin-top: 5px;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	-webkit-transform: scale(1.5);
 	    -ms-transform: scale(1.5);
 	        transform: scale(1.5);
@@ -5591,7 +5591,7 @@ input.picker {
 	-ms-grid-columns: minmax(min-content, 10em) 0.5em min-content 0.5em auto;
 	grid-template-columns: minmax(-webkit-min-content, 10em) -webkit-min-content auto;
 	grid-template-columns: minmax(min-content, 10em) min-content auto;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	margin: 2px;
 }
 .wasabee-dialog-fanfield label,
@@ -5604,7 +5604,7 @@ input.picker {
 	-ms-grid-column: 1;
 	grid-column: 1;
 	vertical-align: central;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 }
 .wasabee-dialog-fanfield button,
 .wasabee-dialog-homogeneous button,
@@ -5645,7 +5645,7 @@ input.picker {
 	vertical-align: middle;
 	white-space: nowrap;
 	margin: 3px;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	-webkit-transition: background-color 0.3s;
 	-o-transition: background-color 0.3s;
 	transition: background-color 0.3s;
@@ -5701,7 +5701,7 @@ input.picker {
 .wasabee-buttons .leaflet-bar {
 	list-style: none;
 	padding-left: 0;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	-webkit-backdrop-filter: var(--bgblur);
 	        backdrop-filter: var(--bgblur);
 }
@@ -5733,7 +5733,7 @@ input.picker {
 	color: var(--whitecol);
 	/*min-width: 50px;*/
 	min-width: fit-content;
-	font-family: 'Manrope', sans-serif;
+	font-family: inherit;
 	width: auto;
 	background-color: var(--subactionbg);
 	-webkit-transition: all 0.3s;
@@ -5973,13 +5973,98 @@ div#ThemeChooserContainer tbody tr:hover,div#ThemeChooserContainer tbody, div#Th
 }
 /*Machina cluster end*/
 /*Multi projects manager start*/
-	/*WIP*/
-.mpe.settings > div {
-	border: none;
-    background: transparent;
-}
 .mpe.settings label {
-    color: inherit;
+color:inherit;
+}
+.mpe select, .mpe a {
+border: none;
+background: inherit;
+color:inherit;	
+}
+.mpe a {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: var(--accentcol01);
+	border: 1px solid var(--buttonborder);
+	border-radius: 6px;
+	-webkit-box-shadow: var(--shadow2) 0 1px 0;
+	box-shadow: var(--shadow2) 0 1px 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: var(--lightwhite);
+	font-family: inherit;
+	padding: 5px 0px;
+	margin-top: 1px; 
+	text-align: center;
+	text-decoration: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-user-select: none;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	vertical-align: middle;
+	white-space: nowrap;
+	-webkit-transition: background-color 0.5s ease-in-out;
+	-o-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
+	height: 26px;
+	-ms-grid-row-align: center;
+	-ms-grid-column-align: center;
+	place-self: center;
+}
+.mpe a:hover{
+	background-color: var(--hovers2);
+	text-decoration:none;
+	-webkit-transition: background-color 0.5s ease-in-out;
+	-o-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
+}
+
+.mpe.settings > div {
+border: none;
+background: transparent;
+display:inline-block;
+}
+.mpe select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: 0;
+	font: inherit;
+	min-height: 2em;
+	overflow: hidden;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgdmlld0JveD0iMCAtMjU2IDE3OTIgMTc5MiIKICAgaWQ9InN2ZzI5ODkiCiAgIHZlcnNpb249IjEuMSIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMC45Mi40ICg1ZGE2ODljMzEzLCAyMDE5LTAxLTE0KSIKICAgd2lkdGg9IjEwMCUiCiAgIGhlaWdodD0iMTAwJSIKICAgc29kaXBvZGk6ZG9jbmFtZT0iQ2FyZXRfZG93bl9mb250X2F3ZXNvbWVfd2hpdGV2YXJpYXRpb24uc3ZnIj4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGEyOTk5Ij4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZGVmcwogICAgIGlkPSJkZWZzMjk5NyIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgb2JqZWN0dG9sZXJhbmNlPSIxMCIKICAgICBncmlkdG9sZXJhbmNlPSIxMCIKICAgICBndWlkZXRvbGVyYW5jZT0iMTAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjY0MCIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSI0ODAiCiAgICAgaWQ9Im5hbWVkdmlldzI5OTUiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjAuMTMxNjk2NDMiCiAgICAgaW5rc2NhcGU6Y3g9Ijg5NiIKICAgICBpbmtzY2FwZTpjeT0iODk2IgogICAgIGlua3NjYXBlOndpbmRvdy14PSIwIgogICAgIGlua3NjYXBlOndpbmRvdy15PSIyNSIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIxIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzI5ODkiIC8+CiAgPGcKICAgICB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwtMSw0MDIuNDQwNjgsMTIzOS44NjQ0KSIKICAgICBpZD0iZzI5OTEiCiAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZiI+CiAgICA8cGF0aAogICAgICAgZD0ibSAxMDI0LDgzMiBxIDAsLTI2IC0xOSwtNDUgTCA1NTcsMzM5IHEgLTE5LC0xOSAtNDUsLTE5IC0yNiwwIC00NSwxOSBMIDE5LDc4NyBxIC0xOSwxOSAtMTksNDUgMCwyNiAxOSw0NSAxOSwxOSA0NSwxOSBoIDg5NiBxIDI2LDAgNDUsLTE5IDE5LC0xOSAxOSwtNDUgeiIKICAgICAgIGlkPSJwYXRoMjk5MyIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmIiAvPgogIDwvZz4KPC9zdmc+Cg==) no-repeat right 0px center/1.4em, -o-linear-gradient(right, var(--accentcol01) 19px, rgba(29, 36, 36, 0) 0px);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgdmlld0JveD0iMCAtMjU2IDE3OTIgMTc5MiIKICAgaWQ9InN2ZzI5ODkiCiAgIHZlcnNpb249IjEuMSIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMC45Mi40ICg1ZGE2ODljMzEzLCAyMDE5LTAxLTE0KSIKICAgd2lkdGg9IjEwMCUiCiAgIGhlaWdodD0iMTAwJSIKICAgc29kaXBvZGk6ZG9jbmFtZT0iQ2FyZXRfZG93bl9mb250X2F3ZXNvbWVfd2hpdGV2YXJpYXRpb24uc3ZnIj4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGEyOTk5Ij4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZGVmcwogICAgIGlkPSJkZWZzMjk5NyIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgb2JqZWN0dG9sZXJhbmNlPSIxMCIKICAgICBncmlkdG9sZXJhbmNlPSIxMCIKICAgICBndWlkZXRvbGVyYW5jZT0iMTAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjY0MCIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSI0ODAiCiAgICAgaWQ9Im5hbWVkdmlldzI5OTUiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjAuMTMxNjk2NDMiCiAgICAgaW5rc2NhcGU6Y3g9Ijg5NiIKICAgICBpbmtzY2FwZTpjeT0iODk2IgogICAgIGlua3NjYXBlOndpbmRvdy14PSIwIgogICAgIGlua3NjYXBlOndpbmRvdy15PSIyNSIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIxIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzI5ODkiIC8+CiAgPGcKICAgICB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwtMSw0MDIuNDQwNjgsMTIzOS44NjQ0KSIKICAgICBpZD0iZzI5OTEiCiAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZiI+CiAgICA8cGF0aAogICAgICAgZD0ibSAxMDI0LDgzMiBxIDAsLTI2IC0xOSwtNDUgTCA1NTcsMzM5IHEgLTE5LC0xOSAtNDUsLTE5IC0yNiwwIC00NSwxOSBMIDE5LDc4NyBxIC0xOSwxOSAtMTksNDUgMCwyNiAxOSw0NSAxOSwxOSA0NSwxOSBoIDg5NiBxIDI2LDAgNDUsLTE5IDE5LC0xOSAxOSwtNDUgeiIKICAgICAgIGlkPSJwYXRoMjk5MyIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmIiAvPgogIDwvZz4KPC9zdmc+Cg==) no-repeat right 0px center/1.4em, linear-gradient(to left, var(--accentcol01) 19px, rgba(29, 36, 36, 0) 0px);
+	color: var(--whitecol);
+	border-radius: 5px;
+	margin-top: 1px;
+	margin-bottom: 2px;	
+	border: 1px solid var(--accentcol01);
+	-webkit-box-shadow: 0 0 10px 0 var(--accentcol03);
+	box-shadow: 0 0 10px 0 var(--accentcol03);
+	cursor: pointer;
+	line-height: 25px;
+	/*Normal*/
+	-ms-grid-row-align: center;
+	-ms-grid-column-align: start;
+	place-self: center start;
+	transition: all 0.3s ease;
+}
+.mpe select:hover {
+	content: "▼";
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgdmlld0JveD0iMCAtMjU2IDE3OTIgMTc5MiIKICAgaWQ9InN2ZzI5ODkiCiAgIHZlcnNpb249IjEuMSIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMC45Mi40ICg1ZGE2ODljMzEzLCAyMDE5LTAxLTE0KSIKICAgd2lkdGg9IjEwMCUiCiAgIGhlaWdodD0iMTAwJSIKICAgc29kaXBvZGk6ZG9jbmFtZT0iQ2FyZXRfZG93bl9mb250X2F3ZXNvbWVfd2hpdGV2YXJpYXRpb24uc3ZnIj4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGEyOTk5Ij4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZGVmcwogICAgIGlkPSJkZWZzMjk5NyIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgb2JqZWN0dG9sZXJhbmNlPSIxMCIKICAgICBncmlkdG9sZXJhbmNlPSIxMCIKICAgICBndWlkZXRvbGVyYW5jZT0iMTAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjY0MCIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSI0ODAiCiAgICAgaWQ9Im5hbWVkdmlldzI5OTUiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjAuMTMxNjk2NDMiCiAgICAgaW5rc2NhcGU6Y3g9Ijg5NiIKICAgICBpbmtzY2FwZTpjeT0iODk2IgogICAgIGlua3NjYXBlOndpbmRvdy14PSIwIgogICAgIGlua3NjYXBlOndpbmRvdy15PSIyNSIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIxIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzI5ODkiIC8+CiAgPGcKICAgICB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwtMSw0MDIuNDQwNjgsMTIzOS44NjQ0KSIKICAgICBpZD0iZzI5OTEiCiAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZiI+CiAgICA8cGF0aAogICAgICAgZD0ibSAxMDI0LDgzMiBxIDAsLTI2IC0xOSwtNDUgTCA1NTcsMzM5IHEgLTE5LC0xOSAtNDUsLTE5IC0yNiwwIC00NSwxOSBMIDE5LDc4NyBxIC0xOSwxOSAtMTksNDUgMCwyNiAxOSw0NSAxOSwxOSA0NSwxOSBoIDg5NiBxIDI2LDAgNDUsLTE5IDE5LC0xOSAxOSwtNDUgeiIKICAgICAgIGlkPSJwYXRoMjk5MyIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmIiAvPgogIDwvZz4KPC9zdmc+Cg==) no-repeat right 0px center/1.4em, -o-linear-gradient(right, var(--hovers2) 19px, rgba(29, 36, 36, 0) 0px);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgdmlld0JveD0iMCAtMjU2IDE3OTIgMTc5MiIKICAgaWQ9InN2ZzI5ODkiCiAgIHZlcnNpb249IjEuMSIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMC45Mi40ICg1ZGE2ODljMzEzLCAyMDE5LTAxLTE0KSIKICAgd2lkdGg9IjEwMCUiCiAgIGhlaWdodD0iMTAwJSIKICAgc29kaXBvZGk6ZG9jbmFtZT0iQ2FyZXRfZG93bl9mb250X2F3ZXNvbWVfd2hpdGV2YXJpYXRpb24uc3ZnIj4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGEyOTk5Ij4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZGVmcwogICAgIGlkPSJkZWZzMjk5NyIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgb2JqZWN0dG9sZXJhbmNlPSIxMCIKICAgICBncmlkdG9sZXJhbmNlPSIxMCIKICAgICBndWlkZXRvbGVyYW5jZT0iMTAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjY0MCIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSI0ODAiCiAgICAgaWQ9Im5hbWVkdmlldzI5OTUiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjAuMTMxNjk2NDMiCiAgICAgaW5rc2NhcGU6Y3g9Ijg5NiIKICAgICBpbmtzY2FwZTpjeT0iODk2IgogICAgIGlua3NjYXBlOndpbmRvdy14PSIwIgogICAgIGlua3NjYXBlOndpbmRvdy15PSIyNSIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIxIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzI5ODkiIC8+CiAgPGcKICAgICB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwtMSw0MDIuNDQwNjgsMTIzOS44NjQ0KSIKICAgICBpZD0iZzI5OTEiCiAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZiI+CiAgICA8cGF0aAogICAgICAgZD0ibSAxMDI0LDgzMiBxIDAsLTI2IC0xOSwtNDUgTCA1NTcsMzM5IHEgLTE5LC0xOSAtNDUsLTE5IC0yNiwwIC00NSwxOSBMIDE5LDc4NyBxIC0xOSwxOSAtMTksNDUgMCwyNiAxOSw0NSAxOSwxOSA0NSwxOSBoIDg5NiBxIDI2LDAgNDUsLTE5IDE5LC0xOSAxOSwtNDUgeiIKICAgICAgIGlkPSJwYXRoMjk5MyIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmIiAvPgogIDwvZz4KPC9zdmc+Cg==) no-repeat right 0px center/1.4em, linear-gradient(to left, var(--hovers2) 19px, rgba(29, 36, 36, 0) 0px);
+	border: 1px solid var(--hovers2);
+	transition: all 0.3s ease;
+}
+#sidebar .mpeSidebar .mpe > .fa {
+	color:inherit;
+	font-family: inherit;
+}
+#sidebar .mpeSidebar .mpe a {
+	color: inherit;
 }
 /*Multi projects manager end*/
 /*Portal highlights, nearby farm select, farm level select start*/
