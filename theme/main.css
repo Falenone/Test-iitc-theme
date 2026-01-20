@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Manrope:wght@600&display=swap');
+/*Because fonts need to be loaded first and this will bet imported even if not being used*/
 html,
 body {
 	height: 100%;
