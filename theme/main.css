@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Manrope:wght@600&display=swap');
-/*Because fonts need to be loaded first and this will bet imported even if not being used*/
+/*Because fonts need to be loaded first and this will be imported even if not being used*/
 html,
 body {
 	height: 100%;
@@ -858,6 +858,7 @@ background-color: transparent!important; to override sidebar table colors where 
 	-webkit-backdrop-filter: var(--bgblur);
 	backdrop-filter: var(--bgblur);
 	border: none;
+	padding-left: 10px;
 }
 
 @media only screen and (max-width: 900px) {
