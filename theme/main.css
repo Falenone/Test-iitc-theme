@@ -672,38 +672,7 @@ span.mod_free_slot {
 .meter {
 	background: var(--meter);
 	border-radius: 4px;
-	-webkit-animation: pulse 5s infinite ease-in-out;
-	animation: pulse 5s infinite ease-in-out;
 }
-
-@-webkit-keyframes pulse {
-	0% {
-		background-color: var(--pulse0);
-	}
-
-	50% {
-		background-color: var(--pulse50);
-	}
-
-	100% {
-		background-color: var(--pulse100);
-	}
-}
-
-@keyframes pulse {
-	0% {
-		background-color: var(--pulse0);
-	}
-
-	50% {
-		background-color: var(--pulse50);
-	}
-
-	100% {
-		background-color: var(--pulse100);
-	}
-}
-
 .meter.north:before {
 	content: "";
 	background-color: var(--meterbg);
@@ -712,6 +681,7 @@ span.mod_free_slot {
 
 .meter span {
 	border-radius: 2px;
+	top: 0;
 }
 
 /* Reso bar text*/
