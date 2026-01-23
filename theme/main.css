@@ -1239,7 +1239,7 @@ ui-dialog:active {
 	border: 21px solid red!important;
 }
 /*Remove the border just above the button panel only when there are no buttons*/
-.ui-dialog:not(:has(.ui-dialog-buttonpane)),.ui-dialog-content {
+.ui-dialog:not(:has(.ui-dialog-buttonpane)) .ui-dialog-content {
   border-bottom: none;
 }
 .ui-dialog {
