@@ -5904,11 +5904,57 @@ body > .pocketPortalDetails {
 	border: none;
 }
 /*Theme chooser*/
-div#ThemeChooserContainer tbody tr:hover,div#ThemeChooserContainer tbody, div#ThemeChooserContainer tr {
-    background: transparent;
-}
 #ThemeChooserThemeInfo ul {
 	list-style: none;
+}
+#dialog-dialog-KuKuThemeChooser {
+	width: clamp(320px, 50vw, 400px)!important;	
+}
+#KuKuThemeChooser-Container tr {
+	background: transparent;
+}
+#KuKuThemeChooser-Container td#KuKuThemeChooser-ThemeList {
+	padding-top: 12px;
+}
+#KuKuThemeChooser-ThemeList div.theme-list-state.selected {
+	border: 1px solid var(--focuscol);
+	border-radius: 10px;
+	background: linear-gradient(135deg, var(--pulse01), var(--pulse100), var(--pulse01));	
+  	background-size: 200% 200%;	
+  	animation: glowselected 5s ease-in-out infinite;
+  	transition: all .3s ease;	
+	margin-bottom: 5px;
+	margin-top: 5px;	
+}
+
+@keyframes glowselected {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#KuKuThemeChooser-ThemeInfo li {
+	list-style: none;
+}
+#KuKuThemeChooser-ThemeList div.theme-list-state {
+	border: 1px solid var(--accentcol01);
+	border-radius: 10px;
+  	transition: all .3s ease;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#KuKuThemeChooser-ThemeList div.theme-list-state:hover {
+	border: 1px solid var(--hovers2);		
+  	transition: all .3s ease;
+}
+#KuKuThemeChooser-ThemeList div.theme-list-state.selected:hover {
+	border: 1px solid var(--hovers2);
+  	transition: all .3s ease;		
 }
 /*Theme chooser end*/
 /*Highlighters start*/
