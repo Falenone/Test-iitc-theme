@@ -1,20 +1,17 @@
-body {
-    background-color: #1d2424d9;;
-    color: #eee;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
-    color: rgb(119, 107, 54);
+    color: #eee;
 }
 
 a {
     color: #00ffbb;
-	transition all .3s ease;
+	transition: all .3s ease;
 }
 
 a:hover {
     color: #ffffff;
-	transition all .3s ease;	
+	transition: all .3s ease;	
 }
 
 div.release-container {

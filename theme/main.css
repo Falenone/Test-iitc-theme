@@ -4682,7 +4682,7 @@ body > .pocketPortalDetails {
 	background: transparent;
 }
 #KuKuThemeChooser-Container td#KuKuThemeChooser-ThemeList {
-	padding-top: 12px;
+	padding-top: 13px;
 }
 #KuKuThemeChooser-ThemeList div.theme-list-state.selected {
 	border: 1px solid var(--focuscol);
