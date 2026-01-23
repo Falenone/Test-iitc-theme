@@ -1271,10 +1271,10 @@ ui-dialog:active {
 }
 @keyframes slide-bottom {
 	0% {
-		transform: translateY(-5px);
+		transform: translateY(0px);
 	}
 	100% {
-		transform: translateY(5px);
+		transform: translateY(10px);
 	}
 }
 /*Tooltip table*/
