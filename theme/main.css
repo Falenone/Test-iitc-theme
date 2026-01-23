@@ -3473,14 +3473,14 @@ div#available_ap_display div {
 }
 /*Portal names end*/
 /************************************Wasabee start**************************************/
-.wasabee-dialog-checklist input{
+body .wasabee-dialog-checklist input {
 	width: 50px;
 }
-.wasabee-dialog-checklist .wasabee-table .order input {
+body .wasabee-dialog-checklist .wasabee-table .order input {
     width: 4rem;
 }
 /* wasabee-tooltip is used for the quickdraw mouse follower */
-.wasabee-tooltip {
+body .wasabee-tooltip {
 	background-color: var(--tooltip);
 	        backdrop-filter: var(--bgblur);
 	border: 1px solid transparent;
@@ -3494,7 +3494,7 @@ div#available_ap_display div {
 	z-index: 6;
 	font-family: inherit;
 }
-.wasabee-tooltip:before {
+body .wasabee-tooltip:before {
 	border-right: 6px solid var(--accentcol02);
 	        backdrop-filter: var(--bgblur);
 	border-right-color: var(--tooltip);
@@ -3506,32 +3506,32 @@ div#available_ap_display div {
 	left: -7px;
 	transition: all 0.3s;
 }
-.wasabee-error-tooltip {
+body .wasabee-error-tooltip {
 	        backdrop-filter: var(--bgblur);
 	background-color: var(--errortooltipbg);
 	border: 1px solid var(--errortooltipborder);
 	color: var(--errortooltipcol);
 	transition: all 0.3s;
 }
-.wasabee-error-tooltip:before {
+body .wasabee-error-tooltip:before {
 	        backdrop-filter: var(--bgblur);
 	border-right-color: var(--errortooltip);
 	transition: all 0.3s;
 }
 /* used in anything that is a sortable table */
-table.wasabee-table tr {
+body table.wasabee-table tr {
 	background-color: var(--tablecol);
 	transition: background-color 0.3s;
 	font-family: inherit;
 }
-table.wasabee-table tbody tr:nth-child(2n + 1) {
+body table.wasabee-table tbody tr:nth-child(2n + 1) {
 	background: transparent;
 	transition: background-color 0.3s;
 }
-table.wasabee-table tbody tr:nth-child(odd) {
+body table.wasabee-table tbody tr:nth-child(odd) {
 	background: var(--sortable2);
 }
-table.wasabee-table > thead .sortable:before {
+body table.wasabee-table > thead .sortable:before {
 	content: "";
 	display: inline-block;
 	float: right;
@@ -3539,12 +3539,12 @@ table.wasabee-table > thead .sortable:before {
 	text-align: right;
 }
 table.wasabee-table tr:hover,
-table.wasabee-table tbody tr:hover {
+body table.wasabee-table tbody tr:hover {
 	background: var(--sortablehov);
 	transition: background-color 0.3s;
 }
 table.wasabee-table td,
-table.wasabee-table th {
+body table.wasabee-table th {
 	border-width: 0 1px;
 	border-style: solid;
 	padding: 2px 2px;
@@ -3553,60 +3553,60 @@ table.wasabee-table th {
 	border-color: var(--tableborder);
 	font-family: inherit;
 }
-table.wasabee-table > thead .sorted {
+body table.wasabee-table > thead .sorted {
 	background-color: var(--portalslisttheadhov);
 	transition: background-color 0.3s;
 }
-table.wasabee-table > thead .sortable.asc:before {
+body table.wasabee-table > thead .sortable.asc:before {
 	content: "▲";
 	transition: content 0.3s;
 }
-table.wasabee-table > thead .sortable.desc:before {
+body table.wasabee-table > thead .sortable.desc:before {
 	content: "▼";
 	transition: content 0.3s;
 }
-.sortable {
+body .sortable {
 	background-color: var(--sortable);
 	transition: background-color 0.3s;
 }
-.sortable:hover {
+body .sortable:hover {
 	background: var(--sortablehov);
 	transition: background-color 0.3s;
 }
 /* this class is appended to leaflet-popup so we can adjust without stepping on other plugins */
-.wasabee-popup {
+body .wasabee-popup {
 	background: none !important;
 	border-radius: 6px !important;
 	font-weight: bolder;
 	backdrop-filter: blur(8px) grayscale(100%)!important;
 	font-family: inherit;
 }
-.wasabee-popup a.unclaimed {
+body .wasabee-popup a.unclaimed {
 	color: var(--whitecol)!important;
 	font-size: 10pt;
 	letter-spacing: .6pt;
 	background: #707070;
     border-radius: 3px;
 }
-#map .wasabee-popup .leaflet-popup-content {
+body #map .wasabee-popup .leaflet-popup-content {
 	color: var(--leafletpopupcol);
 	text-align: center;
 }
-.wasabee-popup a.enl {
+body .wasabee-popup a.enl {
 	color: var(--accentcol01) !important;
 	text-shadow: 0px 0px 10px var(--whitecol);
 	font-size: 10pt;
 }
-.wasabee-popup a.res {
+body .wasabee-popup a.res {
 	color: var(--respopup) !important;
 	text-shadow: 0px 0px 10px var(--whitecol);
 	font-size: 10pt;
 }
-.wasabee-marker-popup-kind:hover {
+body .wasabee-marker-popup-kind:hover {
 	text-decoration: underline;
 	transition: text-decoration 0.3s;
 }
-.wasabee-marker-buttonset button {
+body .wasabee-marker-buttonset button {
 	display: block;
 	        appearance: none;
 	background-color: var(--accentcol01);
@@ -3629,11 +3629,11 @@ table.wasabee-table > thead .sortable.desc:before {
 	font-family: inherit;
 	transition: background-color 0.3s;
 }
-.wasabee-marker-buttonset button:hover {
+body .wasabee-marker-buttonset button:hover {
 	background-color: var(--hovers2);
 	transition: background-color 0.3s;
 }
-.wasabee-dialog-markeradd div.content button {
+body .wasabee-dialog-markeradd div.content button {
 	border: 0px;
 	background: var(--focus01);
 	        box-shadow: 0 0 10px 0 var(--focus01);
@@ -3648,7 +3648,7 @@ table.wasabee-table > thead .sortable.desc:before {
 	        transform: scale(1.5);
 }
 /* all dialogs get this class -- do global stuff with it */
-.wasabee-dialog {
+body .wasabee-dialog {
 	border-radius: 10px;
 	        box-shadow: 0px 0px 20px 6px var(--dialogshadow);
 	min-width: 330px;
@@ -3671,19 +3671,19 @@ table.wasabee-table > thead .sortable.desc:before {
             transform: translateY(10px);
   }
 }
-.wasabee-dialog ::-webkit-scrollbar {
+body .wasabee-dialog ::-webkit-scrollbar {
 	width: 8px;
 	height: 6px;
 }
-.wasabee-dialog ::-webkit-scrollbar-track {
+body .wasabee-dialog ::-webkit-scrollbar-track {
 	border-radius: 10px;
 	background: var(--scrolltrack);
 }
-.wasabee-dialog ::-webkit-scrollbar-thumb {
+body .wasabee-dialog ::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	background: var(--accentcol01);
 }
-.wasabee-dialog button {
+body .wasabee-dialog button {
 	        appearance: none;
 	background-color: var(--accentcol01);
 	border: 1px solid var(--buttonborder);
@@ -3709,12 +3709,12 @@ table.wasabee-table > thead .sortable.desc:before {
 	font-family: inherit;
 	transition: background-color 0.3s;
 }
-.wasabee-dialog button:hover {
+body .wasabee-dialog button:hover {
 	background-color: var(--hovers2);
 	transition: background-color 0.3s;
 	text-decoration: none;
 }
-.wasabee-dialog input {
+body .wasabee-dialog input {
 	appearance: none;
 	border: 0;
 	border-bottom: 1px solid var(--accentcol01);
@@ -3727,21 +3727,21 @@ table.wasabee-table > thead .sortable.desc:before {
 	transition: all 0.3s;
 	caret-color: var(--focus01);
 }
-.wasabee-dialog input-placeholder {
+body .wasabee-dialog input-placeholder {
 	color: var(--accentcol02);
 	opacity: 0.5;
 	font-family: inherit;
 	transition: opacity 0.3s ease-in-out;
 }
-.wasabee-dialog input:hover::-webkit-input-placeholder {
+body .wasabee-dialog input:hover::-webkit-input-placeholder {
 	opacity: 0.75;
 	transition: opacity 0.3s ease-in-out;
 }
-.wasabee-dialog input:focus::-webkit-input-placeholder {
+body .wasabee-dialog input:focus::-webkit-input-placeholder {
 	opacity: 0;
 	transition: opacity 0.3s ease-in-out;
 }
-.wasabee-dialog input:hover {
+body .wasabee-dialog input:hover {
 	appearance: none;
 	border: 0;
 	border-bottom: 1px solid var(--hovers2);
@@ -3751,45 +3751,45 @@ table.wasabee-table > thead .sortable.desc:before {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
 }
-.wasabee-dialog input:focus {
+body .wasabee-dialog input:focus {
 	border: none;
 	outline: none;
 	border-bottom: 1px solid var(--focus01);
 	transition: all 0.3s ease-in-out;
 	color: var(--whitecol);
 }
-.wasabee-dialog input::-webkit-input-placeholder {
+body .wasabee-dialog input::-webkit-input-placeholder {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
 }
-.wasabee-dialog input::-moz-placeholder {
+body .wasabee-dialog input::-moz-placeholder {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
 }
-.wasabee-dialog input:-ms-input-placeholder {
+body .wasabee-dialog input:-ms-input-placeholder {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
 }
-.wasabee-dialog input::-ms-input-placeholder {
+body .wasabee-dialog input::-ms-input-placeholder {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
 }
-.wasabee-dialog input::placeholder {
+body .wasabee-dialog input::placeholder {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
 }
-.wasabee-dialog a {
+body .wasabee-dialog a {
 	color: var(--focuscol);
 }
-.wasabee-dialog a:hover {
+body .wasabee-dialog a:hover {
 	color: var(--lightwhite);
 	transition: color 0.3s ease-in-out;
 	text-decoration: none;
 }
-.wasabee-dialog h3 {
+body .wasabee-dialog h3 {
 	color: var(--hovers3);
 }
-.wasabee-dialog div.ui-dialog-titlebar {
+body .wasabee-dialog div.ui-dialog-titlebar {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	background: var(--titlebarbg);
@@ -3801,32 +3801,32 @@ table.wasabee-table > thead .sortable.desc:before {
 	font-size: 14px;
 	transition: background 0.3s;
 }
-.wasabee-dialog span.ui-dialog-title {
+body .wasabee-dialog span.ui-dialog-title {
 	color: var(--titlebartitlecol);
 	transition: color 0.3s;
 	margin-right: 65px
 }
-.wasabee-dialog span.ui-dialog-title-active {
+body .wasabee-dialog span.ui-dialog-title-active {
 	color: var(--focus01);
 	transition: color 0.3s;
 }
-.wasabee-dialog .ui-dialog-titlebar-button {
+body .wasabee-dialog .ui-dialog-titlebar-button {
 	border-radius: 6px;
 	height: 18px!important;
 }
-.wasabee-dialog .ui-dialog-titlebar-button-collapse {
+body .wasabee-dialog .ui-dialog-titlebar-button-collapse {
 	right: 35px;
 }
-.wasabee-dialog .ui-dialog-content {
+body .wasabee-dialog .ui-dialog-content {
 	border-bottom: 1px solid var(--uidialogborder);
 }
-.wasabee-dialog .ui-dialog-buttonpane {
+body .wasabee-dialog .ui-dialog-buttonpane {
 	padding: 4px;
 	border-top: initial;
 }
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {
 	.wasabee-dialog input[type=checkbox],
-	.wasabee-dialog input[type=radio] {
+	body .wasabee-dialog input[type=radio] {
 		appearance: none;
 		height: 21px;
 		outline: none;
@@ -3842,7 +3842,7 @@ table.wasabee-table > thead .sortable.desc:before {
 		place-self: center start;
 	}
 	.wasabee-dialog input[type=checkbox]:after,
-	.wasabee-dialog input[type=radio]:after {
+	body .wasabee-dialog input[type=radio]:after {
 		content: "";
 		display: block;
 		left: 0;
@@ -3853,11 +3853,11 @@ table.wasabee-table > thead .sortable.desc:before {
 		-webkit-transform var(--d-t, 0.3s) var(--d-t-e, ease);
 	}
 	.wasabee-dialog input[type=checkbox]:hover,
-	.wasabee-dialog input[type=radio]:hover {
+	body .wasabee-dialog input[type=radio]:hover {
 		--active: var(--hovers2);
 	}
 	.wasabee-dialog input[type=checkbox]:checked,
-	.wasabee-dialog input[type=radio]:checked {
+	body .wasabee-dialog input[type=radio]:checked {
 		--b: var(--active);
 		--bc: var(--active);
 		--d-o: 0.3s;
@@ -3865,38 +3865,38 @@ table.wasabee-table > thead .sortable.desc:before {
 		--d-t-e: cubic-bezier(0.2, 0.85, 0.32, 1.2);
 	}
 	.wasabee-dialog input[type=checkbox]:disabled,
-	.wasabee-dialog input[type=radio]:disabled {
+	body .wasabee-dialog input[type=radio]:disabled {
 		--b: var(--disabled);
 		cursor: not-allowed;
 		opacity: 0.9;
 	}
 	.wasabee-dialog input[type=checkbox]:disabled:checked,
-	.wasabee-dialog input[type=radio]:disabled:checked {
+	body .wasabee-dialog input[type=radio]:disabled:checked {
 		--b: var(--disabled-inner);
 		--bc: var(--border);
 	}
 	.wasabee-dialog input[type=checkbox]:disabled + label,
-	.wasabee-dialog input[type=radio]:disabled + label {
+	body .wasabee-dialog input[type=radio]:disabled + label {
 		cursor: not-allowed;
 	}
 	.wasabee-dialog input[type=checkbox]:hover:not(:checked):not(:disabled),
-	.wasabee-dialog input[type=radio]:hover:not(:checked):not(:disabled) {
+	body .wasabee-dialog input[type=radio]:hover:not(:checked):not(:disabled) {
 		--bc: var(--border-hover);
 	}
 	.wasabee-dialog input[type=checkbox]:not(.switch),
-	.wasabee-dialog input[type=radio]:not(.switch) {
+	body .wasabee-dialog input[type=radio]:not(.switch) {
 		width: 21px;
 	}
 	.wasabee-dialog input[type=checkbox]:not(.switch):after,
-	.wasabee-dialog input[type=radio]:not(.switch):after {
+	body .wasabee-dialog input[type=radio]:not(.switch):after {
 		opacity: var(--o, 0);
 	}
 	.wasabee-dialog input[type=checkbox]:not(.switch):checked,
-	.wasabee-dialog input[type=radio]:not(.switch):checked {
+	body .wasabee-dialog input[type=radio]:not(.switch):checked {
 		--o: 1;
 	}
 	.wasabee-dialog input[type=checkbox] + label,
-	.wasabee-dialog input[type=radio] + label {
+	body .wasabee-dialog input[type=radio] + label {
 		font-size: 14px;
 		line-height: 21px;
 		display: inline-block;
@@ -3905,10 +3905,10 @@ table.wasabee-table > thead .sortable.desc:before {
 		margin-left: 4px;
 		place-self: center start;
 	}
-	.wasabee-dialog input[type=checkbox]:not(.switch) {
+	body .wasabee-dialog input[type=checkbox]:not(.switch) {
 		border-radius: 7px;
 	}
-	.wasabee-dialog input[type=checkbox]:not(.switch):after {
+	body .wasabee-dialog input[type=checkbox]:not(.switch):after {
 		width: 5px;
 		height: 9px;
 		border: 2px solid var(--active-inner);
@@ -3918,14 +3918,14 @@ table.wasabee-table > thead .sortable.desc:before {
 		top: 4px;
 		        transform: rotate(var(--r, 20deg));
 	}
-	.wasabee-dialog input[type=checkbox]:not(.switch):checked {
+	body .wasabee-dialog input[type=checkbox]:not(.switch):checked {
 		--r: 43deg;
 	}
-	.wasabee-dialog input[type=checkbox].switch {
+	body .wasabee-dialog input[type=checkbox].switch {
 		width: 38px;
 		border-radius: 11px;
 	}
-	.wasabee-dialog input[type=checkbox].switch:after {
+	body .wasabee-dialog input[type=checkbox].switch:after {
 		left: 2px;
 		top: 2px;
 		border-radius: 50%;
@@ -3934,17 +3934,17 @@ table.wasabee-table > thead .sortable.desc:before {
 		background: var(--ab, var(--border));
 		        transform: translateX(var(--x, 0));
 	}
-	.wasabee-dialog input[type=checkbox].switch:checked {
+	body .wasabee-dialog input[type=checkbox].switch:checked {
 		--ab: var(--active-inner);
 		--x: 17px;
 	}
-	.wasabee-dialog input[type=checkbox].switch:disabled:not(:checked):after {
+	body .wasabee-dialog input[type=checkbox].switch:disabled:not(:checked):after {
 		opacity: 0.6;
 	}
-	.wasabee-dialog input[type=radio] {
+	body .wasabee-dialog input[type=radio] {
 		border-radius: 50%;
 	}
-	.wasabee-dialog input[type=radio]:after {
+	body .wasabee-dialog input[type=radio]:after {
 		width: 19px;
 		height: 19px;
 		border-radius: 50%;
@@ -3952,41 +3952,41 @@ table.wasabee-table > thead .sortable.desc:before {
 		opacity: 0;
 		        transform: scale(var(--s, 0.7));
 	}
-	.wasabee-dialog input[type=radio]:checked {
+	body .wasabee-dialog input[type=radio]:checked {
 		--s: 0.5;
 	}
 }
-.wasabee-dialog button.drawb::before {
+body .wasabee-dialog button.drawb::before {
 	content: "";
 	font-size: 12pt;
 }
 /* classes specific to various dialogs */
-.wasabee-dialog-auth .content {
+body .wasabee-dialog-auth .content {
 	display: grid;
 	font-family: inherit;
 	justify-items: center;
 }
-.wasabee-dialog-wdkeys div.portal {
+body .wasabee-dialog-wdkeys div.portal {
 	padding: 4px 0px 8px 0px;
 	place-self: center start;
 }
-.wasabee-dialog-wdkeys input {
+body .wasabee-dialog-wdkeys input {
 	padding: 4px;
 	place-self: center start;
 	width: 100%;
 	margin-bottom: 5px;
 	margin-top: 5px;
 }
-.wasabee-dialog-wdkeys button {
+body .wasabee-dialog-wdkeys button {
 	width: fit-content;
 	place-self: center start;
 }
-.wasabee-dialog-export textarea {
+body .wasabee-dialog-export textarea {
 	overflow-x: hidden;
 }
 .wasabee-dialog-export textarea,
 .wasabee-dialog-import textarea,
-.wasabee-dialog-op-settings textarea {
+body .wasabee-dialog-op-settings textarea {
 	appearance: none;
 	width: 97%;
 	height: 250px;
@@ -4004,26 +4004,26 @@ table.wasabee-table > thead .sortable.desc:before {
 }
 .wasabee-dialog-export textarea-placeholder,
 .wasabee-dialog-import textarea-placeholder,
-.wasabee-dialog-op-settings textarea-placeholder {
+body .wasabee-dialog-op-settings textarea-placeholder {
 	color: var(--accentcol02);
 	opacity: 0.5;
 	transition: opacity 0.3s ease-in-out;
 }
 .wasabee-dialog-export textarea:hover::-webkit-input-placeholder,
 .wasabee-dialog-import textarea:hover::-webkit-input-placeholder,
-.wasabee-dialog-op-settings textarea:hover::-webkit-input-placeholder {
+body .wasabee-dialog-op-settings textarea:hover::-webkit-input-placeholder {
 	opacity: 0.75;
 	transition: opacity 0.3s ease-in-out;
 }
 .wasabee-dialog-export textarea:focus::-webkit-input-placeholder,
 .wasabee-dialog-import textarea:focus::-webkit-input-placeholder,
-.wasabee-dialog-op-settings textarea:focus::-webkit-input-placeholder {
+body .wasabee-dialog-op-settings textarea:focus::-webkit-input-placeholder {
 	opacity: 0;
 	transition: opacity 0.3s ease-in-out;
 }
 .wasabee-dialog-export textarea:hover,
 .wasabee-dialog-import textarea:hover,
-.wasabee-dialog-op-settings textarea:hover {
+body .wasabee-dialog-op-settings textarea:hover {
 	appearance: none;
 	border: 0;
 	border: 1px solid var(--textareahov);
@@ -4034,125 +4034,125 @@ table.wasabee-table > thead .sortable.desc:before {
 }
 .wasabee-dialog-export textarea:focus,
 .wasabee-dialog-import textarea:focus,
-.wasabee-dialog-op-settings textarea:focus {
+body .wasabee-dialog-op-settings textarea:focus {
 	outline: none;
 	color: var(--whitecol);
 	border: 1px solid var(--focus01);
 	background: var(--textareafocus);
 	transition: all 0.3s;
 }
-.wasabee-dialog-export textarea::-webkit-input-placeholder, .wasabee-dialog-import textarea::-webkit-input-placeholder, .wasabee-dialog-op-settings textarea::-webkit-input-placeholder {
+body .wasabee-dialog-export textarea::-webkit-input-placeholder, .wasabee-dialog-import textarea::-webkit-input-placeholder, .wasabee-dialog-op-settings textarea::-webkit-input-placeholder {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
 }
-.wasabee-dialog-export textarea::-moz-placeholder, .wasabee-dialog-import textarea::-moz-placeholder, .wasabee-dialog-op-settings textarea::-moz-placeholder {
+body .wasabee-dialog-export textarea::-moz-placeholder, .wasabee-dialog-import textarea::-moz-placeholder, .wasabee-dialog-op-settings textarea::-moz-placeholder {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
 }
-.wasabee-dialog-export textarea:-ms-input-placeholder, .wasabee-dialog-import textarea:-ms-input-placeholder, .wasabee-dialog-op-settings textarea:-ms-input-placeholder {
+body .wasabee-dialog-export textarea:-ms-input-placeholder, .wasabee-dialog-import textarea:-ms-input-placeholder, .wasabee-dialog-op-settings textarea:-ms-input-placeholder {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
 }
-.wasabee-dialog-export textarea::-ms-input-placeholder, .wasabee-dialog-import textarea::-ms-input-placeholder, .wasabee-dialog-op-settings textarea::-ms-input-placeholder {
+body .wasabee-dialog-export textarea::-ms-input-placeholder, .wasabee-dialog-import textarea::-ms-input-placeholder, .wasabee-dialog-op-settings textarea::-ms-input-placeholder {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
 }
 .wasabee-dialog-export textarea::placeholder,
 .wasabee-dialog-import textarea::placeholder,
-.wasabee-dialog-op-settings textarea::placeholder {
+body .wasabee-dialog-op-settings textarea::placeholder {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
 }
-.wasabee-dialog-import textarea {
+body .wasabee-dialog-import textarea {
 	margin-top: 15px;
 	width: 97%;
 	height: 250px;
 	resize: vertical;
 }
-.wasabee-dialog-import input {
+body .wasabee-dialog-import input {
 	width: 100%;
 	resize: vertical;
 	margin-bottom: 5px;
 	margin-top: 5px;
 }
-.wasabee-dialog-manageteam div.list {
+body .wasabee-dialog-manageteam div.list {
 	    grid-column-start: 1;
 	grid-column-end: 4;
 	border-bottom: 1px solid var(--mgrteamborder);
 	margin-bottom: 15px;
 }
-.wasabee-dialog-manageteam label {
+body .wasabee-dialog-manageteam label {
 	    grid-column-start: 1;
 	grid-column-end: 2;
 	place-self: center start;
 }
-.wasabee-dialog-manageteam input {
+body .wasabee-dialog-manageteam input {
 	margin: 2px 2px 2px 2px;
 	    grid-column-start: 2;
 	grid-column-end: 3;
 	place-self: center start;
 }
-.wasabee-dialog-manageteam button {
+body .wasabee-dialog-manageteam button {
 	    grid-column-start: 3;
 	grid-column-end: 4;
 	width: fit-content;
 	place-self: start;
 }
-.wasabee-dialog-op-settings div.buttonset {
+body .wasabee-dialog-op-settings div.buttonset {
 	display: grid;
 	grid-template-columns: 1fr;
 	margin-top: 10px;
 }
-.wasabee-dialog-op-settings div.buttonset button {
+body .wasabee-dialog-op-settings div.buttonset button {
 	margin: 4px;
 	width: fit-content;
 }
 .wasabee-dialog-checklist div.ui-dialog-content,
 .wasabee-dialog-keyslist div.ui-dialog-content,
-.wasabee-dialog-blockerlist div.ui-dialog-content {
+body .wasabee-dialog-blockerlist div.ui-dialog-content {
 	max-height: calc(97vh - 95px - 24px - 2px)!important;
 }
-.wasabee-dialog-checklist select {
+body .wasabee-dialog-checklist select {
  height: 20px!important;
 }
-.wasabee-dialog-settings {
+body .wasabee-dialog-settings {
 	max-width: min-content;
 	min-width: 400px;
 }
-.wasabee-dialog-settings input[type=checkbox] + label {
+body .wasabee-dialog-settings input[type=checkbox] + label {
 	margin-left: 0px;
 	font-size: 10pt;
 	place-self: center start;
 }
-.wasabee-dialog-settings label {
+body .wasabee-dialog-settings label {
 	    grid-column-start: 1;
 	grid-column-end: 2;
 	place-self: center start;
 	padding: 4px;
 	border-top: none;
 }
-.wasabee-dialog-settings select {
+body .wasabee-dialog-settings select {
 	    grid-column-start: 2;
 	grid-column-end: 3;
 	place-self: center start;
 }
-.wasabee-dialog textarea {
+body .wasabee-dialog textarea {
 	caret-color: var(--focus01);
 }
 /**Special disables for select menu downarrow big boxes start**/
-#dialog-wasabee-filter .filters.ui-tabs-panel select {
+body #dialog-wasabee-filter .filters.ui-tabs-panel select {
 	background: none;
 	padding: 0
 }
 /*Key list*/
-.wasabee-dialog-keyslist .enough {
+body .wasabee-dialog-keyslist .enough {
   color: var(--wbenough);
 }
-.wasabee-dialog-keyslist .notenough {
+body .wasabee-dialog-keyslist .notenough {
   color: var(--wbnotenough);
 }
 /*Filters & actions*/
-.wasabee-dialog-filter .filters {
+body .wasabee-dialog-filter .filters {
     grid-gap: 0.3em 0.6em;
     align-items: center;
     display: grid;
@@ -4162,7 +4162,7 @@ table.wasabee-table > thead .sortable.desc:before {
     align-content: center;
 }
 /**Special disables for select menu downarrow big boxes end**/
-.wasabee-dialog select {
+body .wasabee-dialog select {
 	appearance: none;
 	outline: 0;
 	font: inherit;
@@ -4180,12 +4180,12 @@ table.wasabee-table > thead .sortable.desc:before {
 	font-family: inherit;
     line-height: normal;
 }
-.wasabee-dialog select:hover {
+body .wasabee-dialog select:hover {
 	content: "▼";
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgdmlld0JveD0iMCAtMjU2IDE3OTIgMTc5MiIKICAgaWQ9InN2ZzI5ODkiCiAgIHZlcnNpb249IjEuMSIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMC45Mi40ICg1ZGE2ODljMzEzLCAyMDE5LTAxLTE0KSIKICAgd2lkdGg9IjEwMCUiCiAgIGhlaWdodD0iMTAwJSIKICAgc29kaXBvZGk6ZG9jbmFtZT0iQ2FyZXRfZG93bl9mb250X2F3ZXNvbWVfd2hpdGV2YXJpYXRpb24uc3ZnIj4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGEyOTk5Ij4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT48L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZGVmcwogICAgIGlkPSJkZWZzMjk5NyIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjNjY2NjY2IgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgb2JqZWN0dG9sZXJhbmNlPSIxMCIKICAgICBncmlkdG9sZXJhbmNlPSIxMCIKICAgICBndWlkZXRvbGVyYW5jZT0iMTAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTp3aW5kb3ctd2lkdGg9IjY0MCIKICAgICBpbmtzY2FwZTp3aW5kb3ctaGVpZ2h0PSI0ODAiCiAgICAgaWQ9Im5hbWVkdmlldzI5OTUiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjAuMTMxNjk2NDMiCiAgICAgaW5rc2NhcGU6Y3g9Ijg5NiIKICAgICBpbmtzY2FwZTpjeT0iODk2IgogICAgIGlua3NjYXBlOndpbmRvdy14PSIwIgogICAgIGlua3NjYXBlOndpbmRvdy15PSIyNSIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIxIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzI5ODkiIC8+CiAgPGcKICAgICB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwtMSw0MDIuNDQwNjgsMTIzOS44NjQ0KSIKICAgICBpZD0iZzI5OTEiCiAgICAgc3R5bGU9ImZpbGw6I2ZmZmZmZiI+CiAgICA8cGF0aAogICAgICAgZD0ibSAxMDI0LDgzMiBxIDAsLTI2IC0xOSwtNDUgTCA1NTcsMzM5IHEgLTE5LC0xOSAtNDUsLTE5IC0yNiwwIC00NSwxOSBMIDE5LDc4NyBxIC0xOSwxOSAtMTksNDUgMCwyNiAxOSw0NSAxOSwxOSA0NSwxOSBoIDg5NiBxIDI2LDAgNDUsLTE5IDE5LC0xOSAxOSwtNDUgeiIKICAgICAgIGlkPSJwYXRoMjk5MyIKICAgICAgIGlua3NjYXBlOmNvbm5lY3Rvci1jdXJ2YXR1cmU9IjAiCiAgICAgICBzdHlsZT0iZmlsbDojZmZmZmZmIiAvPgogIDwvZz4KPC9zdmc+Cg==) no-repeat right 1px center/1.4em, linear-gradient(to left, var(--hovers2) 19px, rgba(29, 36, 36, 0) 0px);
 	border: 1px solid var(--hovers2);
 }
-.wasabee-dialog select:disabled {
+body .wasabee-dialog select:disabled {
 	appearance: none;
 	outline: 0;
 	font: inherit;
@@ -4206,23 +4206,23 @@ table.wasabee-table > thead .sortable.desc:before {
 	z-index: 2500;
 	opacity: 1;
 }
-.wasabee-dialog select option {
+body .wasabee-dialog select option {
 	background-color: var(--hovers2);
 }
-.wasabee-dialog select:focus {
+body .wasabee-dialog select:focus {
 	outline: none;
 }
-.wasabee-dialog-settings input {
+body .wasabee-dialog-settings input {
 	    grid-column-start: 2;
 	grid-column-end: 3;
 	place-self: center start;
 }
-.wasabee-dialog-settings button {
+body .wasabee-dialog-settings button {
 	    grid-column-start: 1;
 	grid-column-end: 3;
 	place-self: center;
 }
-.wasabee-dialog-skin ol.left {
+body .wasabee-dialog-skin ol.left {
 	clear: both;
 	border: 1px solid var(--mgrteamborder);
 	padding-left: 0;
@@ -4230,18 +4230,18 @@ table.wasabee-table > thead .sortable.desc:before {
 	transition: all 0.3s;
 	border-radius: 5px;
 }
-.wasabee-dialog-skin ul.right {
+body .wasabee-dialog-skin ul.right {
 	clear: both;
 	border: 1px solid var(--mgrteamborder);
 	padding-left: 0;
 	transition: all 0.3s;
 	border-radius: 5px;
 }
-.wasabee-dialog-skin ul.right {
+body .wasabee-dialog-skin ul.right {
 	list-style-type: none;
 	transition: all 0.3s;
 }
-.wasabee-dialog-skin li {
+body .wasabee-dialog-skin li {
 	border: none;
 	height: 1.5em;
 	padding: 3px 4px;
@@ -4249,92 +4249,92 @@ table.wasabee-table > thead .sortable.desc:before {
 	transition: all 0.3s;
 	cursor: grab;
 }
-.wasabee-dialog-skin li:hover {
+body .wasabee-dialog-skin li:hover {
 	background: var(--sortablehov);
 	transition: background-color 0.3s;
 }
-.wasabee-dialog-skin li:active {
+body .wasabee-dialog-skin li:active {
 	background: var(--skinactive);
 	transition: background-color 0.3s;
 }
-.wasabee-link-seperator:before {
+body .wasabee-link-seperator:before {
 	content: " ► ";
 	font-size: 10.5pt;
 }
 /* marker color */
-.CapturePortalMarker {
+body .CapturePortalMarker {
 	color: #ACACAC;
 	font-weight: bold;
 	font-size: 10pt
 }
-.LetDecayPortalAlert {
+body .LetDecayPortalAlert {
 	color: var(--accentcol02)000;
 	font-weight: bold;
 	font-size: 10pt
 }
-.DestroyPortalAlert {
+body .DestroyPortalAlert {
 	color: var(--panecol);
 	font-weight: bold;
 	font-size: 10pt
 }
-.FarmPortalMarker {
+body .FarmPortalMarker {
 	color: #f17030;
 	font-weight: bold;
 	font-size: 10pt
 }
-.GotoPortalMarker {
+body .GotoPortalMarker {
 	color: #e235a9;
 	font-weight: bold;
 	font-size: 10pt;
 }
-.GetKeyPortalMarker {
+body .GetKeyPortalMarker {
 	color: #78b32c;
 	font-weight: bold;
 	font-size: 10pt;
 }
-.CreateLinkAlert {
+body .CreateLinkAlert {
 	color: #0a5d00;
 	font-weight: bold;
 	font-size: 10pt;
 	text-shadow: 0px 0px 10px var(--whitecol);
 }
-.MeetAgentPortalMarker {
+body .MeetAgentPortalMarker {
 	color: #775E43;
 	font-weight: bold;
 	font-size: 10pt;
 	/*text-shadow: 0px 0px 10px var(--whitecol);*/
 }
-.OtherPortalAlert {
+body .OtherPortalAlert {
 	color: #3c3c3c;
 	font-weight: bold;
 	font-size: 10pt;
 	text-shadow: 0px 0px 10px var(--whitecol);
 }
-.RechargePortalAlert {
+body .RechargePortalAlert {
 	color: #298566;
 	font-weight: bold;
 	font-size: 10pt;
 }
-.UpgradePortalAlert {
+body .UpgradePortalAlert {
 	color: #298566;
 	font-weight: bold;
 	font-size: 10pt;
 }
-.UseVirusPortalAlert {
+body .UseVirusPortalAlert {
 	color: #400080;
 	font-weight: bold;
 	font-size: 10pt;
 }
-.ExcludeMarker {
+body .ExcludeMarker {
 	color: var(--accentcol02)099;
 	font-weight: bold;
 	font-size: 10pt;
 }
 /* color pickers */
-input.picker {
+body input.picker {
 	width: -webkit-fill-available;
 }
-.wasabee-dialog-checklist div .hidden-color-picker {
+body .wasabee-dialog-checklist div .hidden-color-picker {
 	visibility: hidden;
 	width: 5px;
 	height: 0;
@@ -4343,7 +4343,7 @@ input.picker {
 	margin: 0;
 }
 /* Autodraw dialogs */
-.wasabee-dialog button.drawb {
+body .wasabee-dialog button.drawb {
 	border: 0px;
 	background: var(--focus01);
 	        box-shadow: 0 0 10px 0 var(--focus01);
@@ -4381,7 +4381,7 @@ input.picker {
 .wasabee-dialog-multimax .container,
 .wasabee-dialog-onion .container,
 .wasabee-dialog-starburst .container,
-.wasabee-dialog-savelinks .container {
+body .wasabee-dialog-savelinks .container {
 	display: grid;
 	grid-gap: 0.2em 0.5em;
 	        align-items: center;
@@ -4395,7 +4395,7 @@ input.picker {
 .wasabee-dialog-multimax label,
 .wasabee-dialog-onion label,
 .wasabee-dialog-starburst label,
-.wasabee-dialog-savelinks label {
+body .wasabee-dialog-savelinks label {
 	grid-column: 1;
 	vertical-align: central;
 	font-family: inherit;
@@ -4408,7 +4408,7 @@ input.picker {
 .wasabee-dialog-onion button,
 .wasabee-dialog-starburst button,
 .wasabee-dialog-savelinks button,
-.wasabee-dialog-wdkeys button {
+body .wasabee-dialog-wdkeys button {
 	grid-column: 2;
 	cursor: pointer;
 	        appearance: none;
@@ -4444,32 +4444,32 @@ input.picker {
 .wasabee-dialog-savelinks button:hover,
 .wasabee-dialog button.drawb:hover,
 .wasabee-dialog-wdkeys button:hover,
-.wasabee-dialog-markeradd div.content button:hover {
+body .wasabee-dialog-markeradd div.content button:hover {
 	background-color: var(--hovers2);
 	transition: background-color 0.3s;
 }
-.wasabee-dialog-markeradd div.content button:hover {
+body .wasabee-dialog-markeradd div.content button:hover {
 	color: var(--lightwhite);
 }
-.wasabee-dialog button.drawb:hover {
+body .wasabee-dialog button.drawb:hover {
 	color: var(--lightwhite);
 }
 /* Panes start*/
-.wasabee-pane {
+body .wasabee-pane {
 	background: var(--drawbutton);
 }
-.wasabee-pane .wasabee-dialog .header {
+body .wasabee-pane .wasabee-dialog .header {
     color: var(--lightwhite);
     background-color: transparent;
     border: none;
     backdrop-filter: blur(3px) grayscale(100%);
 }
-.wasabee-pane .wasabee-dialog .buttonset {
+body .wasabee-pane .wasabee-dialog .buttonset {
 	background-color: transparent;
 	border: none;
     backdrop-filter: blur(3px) grayscale(100%);
 }
-.wasabee-pane .wasabee-dialog .buttonset button {
+body .wasabee-pane .wasabee-dialog .buttonset button {
     color: var(--lightwhite);
     border: none;
     margin: 5px;
@@ -4477,29 +4477,29 @@ input.picker {
 }
 /*Panes end*/
 /*Toolbar start*/
-.wasabee-buttons .leaflet-bar {
+body .wasabee-buttons .leaflet-bar {
 	list-style: none;
 	padding-left: 0;
 	font-family: inherit;
 	        backdrop-filter: var(--bgblur);
 }
 /* overwrite leaflet css */
-.wasabee-buttons .leaflet-bar > li > a {
+body .wasabee-buttons .leaflet-bar > li > a {
 	border-radius: unset;
 	background-color: var(--leafletbuttonbg);
 	transition: background-color 0.3s;
 }
-.wasabee-buttons .leaflet-bar > li > a:hover {
+body .wasabee-buttons .leaflet-bar > li > a:hover {
 	background-color: var(--leafletbarhov);
 	transition: background-color 0.3s;
 }
-.wasabee-buttons .leaflet-bar > li > a {
+body .wasabee-buttons .leaflet-bar > li > a {
 	border-bottom: 1px solid var(--leafletbuttonborder);
 }
-.wasabee-buttons.leaflet-control a.active {
+body .wasabee-buttons.leaflet-control a.active {
 	background-color: var(--leafletaactive)!important;
 }
-.wasabee-subactions a {
+body .wasabee-subactions a {
 	padding-left: 8px;
 	padding-right: 8px;
 	border-left: none;
@@ -4512,42 +4512,42 @@ input.picker {
 	background-color: var(--subactionbg);
 	transition: all 0.3s;
 }
-.wasabee-subactions a:hover {
+body .wasabee-subactions a:hover {
 	background-color: var(--subactionahov);
 	        backdrop-filter: var(--bgblur);
 	width: auto;
 }
 /*Toolbar end*/
-.wasabee-dialog .ui-tabs-nav li a:hover {
+body .wasabee-dialog .ui-tabs-nav li a:hover {
 	color: var(--lightwhite);
 }
-.wasabee-dialog .ui-tabs-nav li.ui-tabs-active a {
+body .wasabee-dialog .ui-tabs-nav li.ui-tabs-active a {
 	color: var(--hovers);
 }
-.wasabee-anchor-buttonset {
+body .wasabee-anchor-buttonset {
 	display: block;
 }
 /*Wasabee markers button*/
-.wasabee-markers .action-button {
+body .wasabee-markers .action-button {
 	box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
   	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 	border: 1px solid transparent;
 }
-.wasabee-markers .action-button::after {
+body .wasabee-markers .action-button::after {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   	opacity: 0;
   	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
-.wasabee-markers .action-button:active {
+body .wasabee-markers .action-button:active {
 	background-position: 0px 0px;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
-.wasabee-markers .action-button:hover {
+body .wasabee-markers .action-button:hover {
 	background-position: 0px 0px;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, .6);
 	border: 1px solid var(--border-hover);
 }
-.wasabee-markers .action-button:hover:after {
+body .wasabee-markers .action-button:hover:after {
 	opacity: 1;
 }
 /*FULL Wasabee end*/
