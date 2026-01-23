@@ -1,5 +1,6 @@
 :root {
 	/*Colors*/
+	--uidialog: #eee; /* For light theme*/
 	--bgroundcol: rgba(29, 36, 36, .85); /*Chat, sidebar etc bg*/
 	--whitecol: #fff; /*Hovers, focus text colors*/
 	--linkcol: #25c0ca; /*Link color*/

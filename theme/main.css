@@ -187,7 +187,6 @@ input[type="button" i]:hover {
 #chatcontrols a.active {
 	border: none;
 	font-weight: inherit;
-	color: var(--lightwhiteWhitetheme)!important;
 	color: var(--hovers)!important;
 	background: var(--lightwhite);
 	transition: all 0.3s ease-in-out;
@@ -238,7 +237,6 @@ input[type="button" i]:hover {
 		background-color: rgba(249, 147, 147, 0.4)
 	}
 }
-/*I really want to exclude this thing from the nth coloring but I'm not sure if I can with css But having the hover transparent is good enough I guess*/
 #chat tr.divider:hover {
 	background: transparent;
 }
@@ -265,6 +263,7 @@ input[type="button" i]:hover {
 	vertical-align: middle;
 	/*Faction n crap were not aligned*/
 }
+
 /*Nice chat table*/
 #chat tr {
 	background-color: var(--tablecol);
@@ -276,6 +275,10 @@ tbody tr:nth-child(2n + 1) {
 #chat tr:nth-child(2n + 1) {
 	background-color: transparent;
 	transition: background-color 0.3s ease-in-out;
+}
+/*So the last item won't be taking up unneeded space*/
+#chat table tr:last-child {
+	height: auto;
 }
 /* time */
 #chat td:first-child,
@@ -686,7 +689,6 @@ input::file-selector-button{
     border: 1px solid var(--buttonborder);
     border-radius: 6px;
     box-shadow: var(--shadow2) 0 1px 0;
-	color: var(--lightwhiteWhitetheme);
     color: var(--lightwhite);
     cursor: pointer;
     text-align: center;
@@ -1249,6 +1251,7 @@ ui-dialog:active {
 	font-size: 13px;
 	line-height: 15px;
 	padding: 2px 4px;
+	color: var(--uidialog);
 	border-radius: 10px;
 	box-shadow: 0px 0px 20px 6px var(--shadow);
 	background-color: var(--bgroundcol);
@@ -1418,7 +1421,6 @@ input[type="button" i] {
 	border-radius: 6px;
 	box-shadow: var(--shadow2) 0 1px 0;
 	box-sizing: border-box;
-	color: var(--lightwhiteWhitetheme);	/*Gonna keep that here to maintain consistency between themes*/
 	color: var(--lightwhite);
 	cursor: pointer;
 	display: inline-block;
@@ -1678,7 +1680,6 @@ table.artifact .portal {
 .cellscore .ui-accordion-header.ui-state-hover,
 .cellscore .ui-accordion-header.ui-state-active {
 	background: var(--accentcol01);
-	color: var(--lightwhiteWhitetheme);	/*Gonna keep that here to maintain consistency between themes*/
 	color: var(--lightwhite2);
 }
 .cellscore table {
@@ -1777,7 +1778,6 @@ g.checkpoint:hover circle {
 	border-bottom: 1px solid var(--accentcol04);
 }
 .ui-tabs-nav a {
-	color: var(--lightwhiteWhitetheme)!important;
 	color: var(--lightwhite)!important;
 }
 .ui-tabs-nav::after {
@@ -1927,7 +1927,6 @@ when you have the theme set to load lastly so !important it is.*/
 	box-shadow: var(--shadow2) 0 1px 0!important;
 	box-sizing: border-box!important;
 	width: fit-content!important;
-	color: var(--lightwhiteWhitetheme)!important;
 	color: var(--lightwhite)!important;
 	cursor: pointer!important;
 	display: inline-block!important;
@@ -1968,7 +1967,6 @@ when you have the theme set to load lastly so !important it is.*/
 .sp-container button:hover,
 button.sp-choose:hover {
 	background-color: var(--hovers2)!important;
-	color: var(--lightwhiteWhitetheme)!important;
 	color: var(--whitecol)!important;
 	transition: background-color 0.5s ease-in-out!important;
 }
@@ -2095,7 +2093,6 @@ select#playerTrackerAddon_selectplayer {
 	background: var(--accentcol04);
 }
 .inventory-box .ui-accordion-header:hover {
-	color: var(--lightwhiteWhitetheme);	/*Gonna keep that here to maintain consistency between themes*/
 	color: var(--hovers2);
 }
 .inventory-box .ui-accordion-header-active:before {
@@ -2187,7 +2184,6 @@ select#playerTrackerAddon_selectplayer {
 	/*Inside js 700 and that's not enough to get horizontal scrollbar away */
 }
 #portalslist .filterRes, .filterNeu, .filterEnl {
-    color: var(--lightwhiteWhitetheme);
 	color: var(--lightwhite);
 }
 #portalslist table tr.none td {
@@ -2632,7 +2628,6 @@ div#portal-visited text {
 }
 #bookmarksBox .addForm a {
 	cursor: pointer;
-	color: var(--lightwhiteWhitetheme);
 	color: var(--hovers);
 	font-size: 12px;
 	width: 35%;
@@ -3124,7 +3119,6 @@ fieldset#plugin_arcs_toolbox {
 	text-decoration: none;
 	background: var(--accentcol01);
 	transition: all 0.3s ease-in-out;
-/*	color: var(--lightwhiteWhitetheme);	*/
 }
 #layersProfiles button {
 	border: none;
@@ -3433,7 +3427,6 @@ div#cactus-scan-pct {
     border-radius: 6px;
     box-shadow: var(--shadow2) 0 1px 0;
 	box-sizing: border-box;
-	color: var(--lightwhiteWhitetheme);
 	color: var(--lightwhite);
     cursor: pointer;
     font-size: 14px;
@@ -3451,7 +3444,6 @@ div#cactus-scan-pct {
 }
 .cactusNewer .btn:hover {
     background-color: var(--hovers2);
-/*	color: var(--lightwhiteWhitetheme);*/
 	transition: all 0.3s linear;
 }
 /*Cactus end*/
@@ -4556,7 +4548,6 @@ body .wasabee-markers .action-button:hover:after {
 .ui-dialog-titlebar-button-collapse::after,
 .ui-dialog-titlebar-button-close::after,
 .ui-dialog-titlebar-button-close::before {
-	border-top: 2px solid var(--lightwhiteWhitetheme);
 	border-top: 2px solid var(--lightwhite);
 }
 /*IITC fix end*/
