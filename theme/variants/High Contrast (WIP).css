@@ -116,9 +116,9 @@
   --subactionahov: rgba(255,255,255,.9);
 }
 .dialog-LiveInventory tr, tbody tr:nth-child(odd):hover {
-    background: var(--sortablehov);
-	transition: all 0s ease !important;
+    background: var(--sortablehov)!important;
+	transition: all 0s ease!important;
 }
 .ui-dialog-layerManager table tr:hover {
-	background: transparent;
+	background: transparent!important;
 }
