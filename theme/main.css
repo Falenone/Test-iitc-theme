@@ -592,7 +592,7 @@ background-color: transparent!important; to override sidebar table colors where 
 	margin-left: 1px;
 	align-content: space-evenly;
 	width: 300px;
-	word-break: auto-phrase;
+	word-break: break-word;
 }
 /*#toolbox > a,*/
 #toolbox_component > a {
@@ -1239,8 +1239,7 @@ ui-dialog:active {
 	border: 21px solid red!important;
 }
 /*Remove the border just above the button panel only when there are no buttons*/
-.ui-dialog:not(:has(.ui-dialog-buttonpane))
-  .ui-dialog-content {
+.ui-dialog:not(:has(.ui-dialog-buttonpane)).ui-dialog-content {
   border-bottom: none;
 }
 .ui-dialog {
@@ -1255,10 +1254,7 @@ ui-dialog:active {
 	background-color: var(--bgroundcol);
 	backdrop-filter: var(--bgblur);
 	/*margin-top: 4px;*/
-	slide-bottom 0.2s cubic-bezier(0.455,
-	0.030,
-	0.515,
-	0.955) both;
+	animation: slide-bottom 0.2s cubic-bezier(0.455, 0.030,0.515,0.955) both;
 	animation: fadein .2s,
 	slide-bottom 0.2s cubic-bezier(0.455,
 	0.030,
@@ -1702,16 +1698,13 @@ table.artifact .portal {
 	vertical-align: middle;
 	margin-top: 0;
 }
-@-moz-document url-prefix() {
-	.cellscore .logscale {
-		transform: scale(0.8);
-	}
+
 	/* prevent nonfunctional vertical scrollbar in Firefox (perhaps jQuery issue) */
 	.cellscore > .historychart {
 		overflow-y: hidden !important;
 		background: var(--hovers);
 	}
-}
+
 g.checkpoint circle {
 	transition: all .3s linear;
 }
