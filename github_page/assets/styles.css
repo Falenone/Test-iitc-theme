@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(39, 37, 28);
-    color: #e2c532;
+    background-color: #1d2424d9;;
+    color: #eee;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -9,16 +9,19 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     color: #00ffbb;
+	transition all .3s ease;
 }
 
 a:hover {
     color: #ffffff;
+	transition all .3s ease;	
 }
 
 div.release-container {
     border: 1px solid lightgray;
     padding: 10px;
     margin-bottom: 10px;
+	border-radius: 10px;
 }
 
 table.changelog-table tr {
