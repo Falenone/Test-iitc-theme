@@ -66,7 +66,7 @@
 	--border-hover: #33AACB; /*Checkbox/Radio buttons*/
 	--background: #DCE3D9; /*Checkbox/Radio buttons*/
 	--disabled: #f6f8ff; /*Checkbox/Radio buttons*/
-	--disabled-inner: #E3F9E1; /*Checkbox/Radio buttons*/
+	--disabled-inner: #e1eef9; /*Checkbox/Radio buttons*/
 	--selection: #185A70; /*text selection color*/
 	  /*Plugin specific*/
 	--fieldset: #4380A4; /*Bannergress specific, border around contents in ui dialog with a small title up top*/
@@ -101,7 +101,7 @@
 	--leafletpopupcol: #202020; /*Leaflet popup color*/
 	--respopup: #0081FF; /*Res popup color*/
 	--dialogshadow: rgba(0, 0, 0, .28); /*Dialog box shadow*/
-	--focus01: #33D9B2; /*Button, input, textarea focus borders, draw button background*/
+	--focus01: #33c2d9; /*Button, input, textarea focus borders, draw button background*/
 	--mgrteamborder: #808080; /*Manage team border, dialog ol left, ul right*/
 	--skinactive: #848484; /*Skin dialog active*/
 	--pulse01: rgba(51, 217, 178, 0); /*Draw button pulse*/
