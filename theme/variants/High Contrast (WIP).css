@@ -119,6 +119,8 @@
     background: var(--sortablehov)!important;
 	transition: all 0s ease!important;
 }
-.ui-dialog-layerManager table tr:hover {
+/*Tables without hover color*/
+.ui-dialog-layerManager tr table tr:hover,
+#KuKuThemeChooser-Container tr:hover{
 	background: transparent!important;
 }
