@@ -1,5 +1,8 @@
 :root {
 	/*Colors*/
+	--enllight: #5e5; /*Light ENL color in chat, for portal captures linked from etc*/
+	--reslight: #2de; /*Light RES color in chat, for portal captures linked from etc*/
+	--maclight: #f44; /*Light Machina color in chat, for portal captures linked from etc*/
 	--uidialog: #eee; /* For light theme*/
 	--bgroundcol: rgba(29, 36, 36, .85); /*Chat, sidebar etc bg*/
 	--whitecol: #fff; /*Hovers, focus text colors*/

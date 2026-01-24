@@ -148,6 +148,16 @@ input[type="button" i]:hover {
 }
 /*Right layer menu end*/
 /*Chat*/
+/*Chat colors for factions, linked portals etc*/
+#chat .portal.enl-light {
+    color: var(--enllight);
+}
+#chat .portal.res-light {
+    color: var(--reslight);
+}
+#chat .portal.mac-light {
+    color: var(--maclight);
+}
 #chatcontrols {
 	color: var(--lightwhite);
 	box-shadow: 0px 0px 20px 6px var(--shadow);
@@ -240,6 +250,9 @@ input[type="button" i]:hover {
 #chat tr.divider:hover {
 	background: transparent;
 }
+#chat > div {
+    height: auto;
+}	
 #chat {
 	position: absolute;
 	width: 708px;
@@ -4835,4 +4848,8 @@ display:inline-block;
     transition: all 0.3s ease-in-out;
 }
 /*Portal highlights, nearby farm select, farm level select end*/
-/*Shit can't have enough space and I've sank too much time trying to figure it out*/
+/*Chat filter start*/
+#chat-filters.desktop #filter-type:hover {
+    height: unset;
+}
+/*Chat filter End*/
