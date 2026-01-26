@@ -1,6 +1,7 @@
 /******************Variables**************************/
 :root {
 	/*Colors*/
+	--chatdiv: #bbb; /*Chat divider text color, dates etc*/	
 	--enllight: #5e5; /*Light ENL color in chat, for portal captures linked from etc*/
 	--reslight: #2de; /*Light RES color in chat, for portal captures linked from etc*/
 	--maclight: #f44; /*Light Machina color in chat, for portal captures linked from etc*/	

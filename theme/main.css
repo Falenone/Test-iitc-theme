@@ -158,6 +158,9 @@ input[type="button" i]:hover {
 #chat .portal.mac-light {
     color: var(--maclight);
 }
+#chat .divider {
+    color: var(--chatdiv);
+}
 #chatcontrols {
 	color: var(--lightwhite);
 	box-shadow: 0px 0px 20px 6px var(--shadow);
@@ -837,7 +840,7 @@ select option:hover {
 	border: none;
 	border-radius: 0px;
   }
-select {
+/*select {
 	appearance: none;
 	outline: 0;
 	font: inherit;
@@ -853,7 +856,7 @@ select {
 	cursor: pointer;
 	margin-top: 1px;
 	line-height: 25px;
-	/*Normal*/
+
 	place-self: center start;
 	margin-bottom: 2px;
 	z-index: 2500;
@@ -867,7 +870,7 @@ select:hover {
 	margin-bottom: 2px;
 	z-index: 2500;
 	transition: all 0.3s ease-in-out;
-}
+}*/
 select:disabled {
 	appearance: none;
 	outline: 0;
@@ -1159,6 +1162,13 @@ textarea::placeholder,
 .iitc-textarea::placeholder {
 	color: var(--hovers3);
 	transition: all 0.3s ease-in-out;
+}
+textarea::-webkit-resizer {
+	background: linear-gradient(135deg,transparent 45%,var(--textareahov),var(--hovers2),transparent 55%),
+	linear-gradient(135deg,transparent 60%,var(--hovers),var(--textareahov),transparent 70%);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 10px 10px;
 }
 /*Tables global*/
 td + td {
